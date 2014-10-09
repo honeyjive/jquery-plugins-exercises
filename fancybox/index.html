@@ -22,6 +22,7 @@
 		}
 	</style>
 
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css">
 
 </head>
 <body>
@@ -48,9 +49,14 @@
 	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
 	<!-- Add fancyBox main JS and CSS files -->
-<script src="source/helpers/jquery.fancybox.js"></script>
+<script src="source/jquery.fancybox.js"></script>
+<script src="source/jquery.fancybox.pack.js"></script>
 
-<script src="source/helpers/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
 
 </body>
 </html>
