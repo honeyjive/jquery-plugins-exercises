@@ -63,7 +63,7 @@
 
 .mi-slider ul li h4 {
 	display: inline-block;
-	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-family: Garamond, "Times New Roman", serif;
 	font-style: italic;
 	font-weight: 400;
 	font-size: 18px;
@@ -93,7 +93,7 @@
 	letter-spacing: 5px;
 	padding: 40px 30px 30px 34px;
 	position: relative;
-	color: #888;
+	color: #649987;
 	outline: none;
 	-webkit-transition: color 0.2s linear;
 	transition: color 0.2s linear;
